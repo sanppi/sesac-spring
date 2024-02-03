@@ -1,13 +1,11 @@
-package com.sesac.sesacspring.controller;
+package com.sesac.sesacspring.api.controller;
 
-import com.sesac.sesacspring.dto.UserDTO;
-import com.sesac.sesacspring.vo.Prac;
-import com.sesac.sesacspring.vo.UserVO;
+import com.sesac.sesacspring.api.dto.UserDTO;
+import com.sesac.sesacspring.api.vo.Prac;
+import com.sesac.sesacspring.api.vo.UserVO;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 
 // @RestController // @controller + @responsebody
